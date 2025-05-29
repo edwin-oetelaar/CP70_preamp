@@ -25,7 +25,7 @@ This pre-amp is designed with the following considerations:
 *   **Sufficient Headroom:** To handle the potentially large signal swings from the pickups.
 *   **Individual Channel Processing:** Each pickup receives its own pre-amplifier stage.
 *   **Modularity:** For ease of assembly, testing, and maintenance.
-*   **Open Source:** All design files and documentation are publicly available to encourage learning, modification, and a_c_c_e_s_s_i_b_i_l_i_t_y (Oops, there's a typo here. It should be 'accessibility' or similar. I'll correct it in the revised text below).
+*   **Open Source:** All design files and documentation are publicly available to encourage learning, modification, accessibility.
 
 ## Project Status
 
