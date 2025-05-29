@@ -109,7 +109,7 @@ The power amplification stage will utilize off-the-shelf Class-D amplifier modul
 *   **Capacitors:** THT. Film capacitors for audio coupling, electrolytic/tantalum for power supply bulk filtering, ceramic for local IC decoupling.
 *   **Potentiometers:** THT, panel mount, audio taper.
 *   **Connectors:**
-    *   Inputs from Pickups: [Specify type, e.g., shielded connectors on PCB]
+    *   Inputs from Pickups:  https://www.farnell.com/datasheets/2995445.pdf PCB Spring Type Terminal Blocks (2.54mm pitch)
     *   Outputs to Ribbon Cables: 40-pin IDC male headers on PCB.
     *   Power Input: 3-pole, 5.08mm pitch pluggable terminal block female connector on PCB.
 *   [ Placeholder - Other specific components. Refer to Bill of Materials (BOM). ]*

@@ -11,6 +11,48 @@
 		(company "POM (Eindhoven)")
 	)
 	(lib_symbols)
+	(sheet
+		(at 143.51 27.94)
+		(size 71.12 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8ecc5cac-6efb-4c36-9e0c-3beaaa33ee63")
+		(property "Sheetname" "single_preamp_board"
+			(at 143.51 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "single_preamp.kicad_sch"
+			(at 143.51 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CP70_preamp"
+				(path "/ea365a6d-81e4-484e-bf26-b7962246143f"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
