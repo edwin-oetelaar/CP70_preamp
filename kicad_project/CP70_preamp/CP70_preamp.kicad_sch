@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20250425)
+	(generator "eeschema")
+	(generator_version "9.99")
+	(uuid "ea365a6d-81e4-484e-bf26-b7962246143f")
+	(paper "A3")
+	(title_block
+		(title "CP70_preamp_2025")
+		(date "2025-05-29")
+		(rev "0.1")
+		(company "POM (Eindhoven)")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
