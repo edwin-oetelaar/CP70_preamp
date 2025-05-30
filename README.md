@@ -14,6 +14,10 @@ The primary goal of this pre-amplifier is to individually buffer and potentially
 
 **Repository URL:** [https://github.com/edwin-oetelaar/CP70_preamp/tree/main](https://github.com/edwin-oetelaar/CP70_preamp/tree/main)
 
+## Image of the piano
+
+![piano](images/CP-70B.png)
+
 ## Background
 
 The Yamaha CP70 is an iconic electric grand piano known for its unique sound, derived from real strings and hammers combined with a piezo pickup system.
@@ -59,6 +63,10 @@ This repository is structured to include:
     *   Images, block diagrams, and other supporting documents.
 *   **/images:** Schematics, photos of prototypes, etc.
 *   `README.md` - This file.
+
+# image of version 0.1 printed circuit board
+
+![pcb0.1](images/Version_0_1.png)
 
 ## Key Design Aspects (Summary)
 
