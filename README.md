@@ -50,7 +50,7 @@ This repository is structured to include:
     *   `CP70_preamp.kicad_sch` - Main schematic file.
     *   `CP70_preamp.kicad_pcb` - Main PCB layout file (or individual module files).
     *   `libraries/` - Custom schematic symbols and PCB footprints, if any.
-    *   `gerbers/` - Gerber files for PCB manufacturing (to be added when ready).
+    *   `out1/` - Gerber files for PCB manufacturing (to be added when ready). (file out1.zip sent to JLCPCB)
     *   `bom/` - Bill of Materials (to be added).
 *   **/documentation:**
     *   `design_decisions.md` - Detailed explanation of the design choices, component selection, and rationale.
