@@ -33,8 +33,10 @@ This pre-amp is designed with the following considerations:
 
 *   Current Version: [e.g., v0.1 - Initial Design]
 *   Key Milestones:
-    *   [ ] Initial schematic design complete.
-    *   [ ] PCB layout for [X]-channel module complete.
+    *   [x] Initial schematic design complete.
+    *   [x] PCB layout for [16]-channel module complete.
+    *   [x] PCB ordered
+    *   [x] parts ordered
     *   [ ] First prototype(s) built and tested.
     *   [ ] Full 72-channel system assembled.
     *   [ ] Integration with the CP70 at Paviljoen Ongehoorde Muziek.
