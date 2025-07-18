@@ -68,6 +68,7 @@ This repository is structured to include:
 
 ![pcb0.1](images/Version_0_1.png)
 
+![pcbPot0.1](images/KicadRender_Pot_v1.png)
 ![pcb_built_v1](images/Audio_16_chan_preamp_pots_v1.jpeg)
 
 ## Key Design Aspects (Summary)
