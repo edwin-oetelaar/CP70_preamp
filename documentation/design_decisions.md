@@ -54,7 +54,7 @@ The 72 pre-amplifier channels will be distributed across **five (5) identical pr
 Individual gain control for each of the 72 active channels will be provided by THT potentiometers mounted on a front panel.
 
 *   **Panel Dimensions:** Approximately 38 cm (width) x 8 cm (height).
-*   **Potentiometer Count:** 72.
+*   **Potentiometer Count:** 80. (for each pre-amp channel)
 *   **Connection:** Wiring from the potentiometers to the respective pre-amplifier channels on the PCB modules will be required.
 
 ## 5. Pre-amplifier Interconnects and Signal Cabling
@@ -106,7 +106,7 @@ The power amplification stage will utilize off-the-shelf Class-D amplifier modul
 
 *   **Op-amps:** Socketed, THT dual or quad op-amps (e.g., TL072/TL074 or modern equivalents with good audio performance and appropriate voltage ratings).
 *   **Resistors:** THT, 1% metal film for signal path.
-*   **Capacitors:** THT. Film capacitors for audio coupling, electrolytic/tantalum for power supply bulk filtering, ceramic for local IC decoupling.
+*   **Capacitors:** THT. Film capacitors for audio coupling (good bi-polar electrolithic caps were chosen), electrolytic/tantalum for power supply bulk filtering, ceramic for local IC decoupling.
 *   **Potentiometers:** THT, panel mount, audio taper.
 *   **Connectors:**
     *   Inputs from Pickups:  https://www.farnell.com/datasheets/2995445.pdf PCB Spring Type Terminal Blocks (2.54mm pitch)
