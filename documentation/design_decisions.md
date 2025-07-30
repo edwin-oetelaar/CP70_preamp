@@ -119,12 +119,11 @@ The power amplification stage will utilize off-the-shelf Class-D amplifier modul
 ## System Block Diagram (Mermaid JS - Updated)
 
 ```mermaid
-graph TD
-    subgraph Piano_System
+   graph TD
+   subgraph Piano_System
         PUs[72 CP70 Pickups] -->|Raw Signals| PreAmp_PCBs
         PreAmp_PCBs -.->|Gain Control Wiring| Pots_Panel
-        Pots_Panel -->|User Input| User(User Adjusts Gain)
-
+        Pots_Panel -->|User Input| User(User Adjusts Gain)   
         subgraph PreAmp_PCBs["5x Pre-Amplifier PCB Modules (16 THT channels each, Socketed Op-amps)"]
             direction LR
             PCB1[Module 1: 16 Pre-amps]
@@ -149,9 +148,10 @@ graph TD
             direction LR
             Input_From_PreAmp_Ribbon["Ribbon Cable Input (16ch)"] --> TPA_Modules_Mounted
             TPA_Modules_Mounted["16x TPA3118 Class-D Modules (Socketed/Mounted)"] --> Speaker_Outputs[Speaker Outputs]
+            Pots_Panel -->|Adjusted levels|TPA_Modules_Mounted 
             PA_Power_Input[24V DC Power Input] --> TPA_Modules_Mounted
         end
-        PowerAmp_Carrier_Boards --> PA_Power_Input
+        
 
         PA_Power_Supplies["5x 24V DC Power Supplies (or single large PSU)"]
         PA_Power_Supplies --> PA_Power_Input
@@ -160,11 +160,11 @@ graph TD
     end
 
 
-    style PUs fill:#f9d,stroke:#333,stroke-width:2px
+    style PUs fill:#22d,stroke:#333,stroke-width:2px
     style PreAmp_PCBs fill:#bbf,stroke:#333,stroke-width:2px
-    style Pots_Panel fill:#dfd,stroke:#333,stroke-width:2px
+    style Pots_Panel fill:#22d,stroke:#333,stroke-width:2px
     style PreAmp_PowerSupply_Board fill:#orange,stroke:#333,stroke-width:2px
-    style PowerAmp_Carrier_Boards fill:#ccf,stroke:#333,stroke-width:2px
+    style PowerAmp_Carrier_Boards fill:#22d,stroke:#333,stroke-width:2px
     style PA_Power_Supplies fill:#orange,stroke:#333,stroke-width:2px
     style Speakers fill:#grey,stroke:#333,stroke-width:2px
 ```
