@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Edwin_Kicad_Lib_Library")(type "KiCad")(uri "/home/oetelaar/tmp_24mei/CP70_preamp/kicad_project/CP70_pa_breakout/Edwin_Kicad_Lib_Library.pretty")(options "")(descr ""))
+)
